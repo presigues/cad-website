@@ -96,7 +96,6 @@ left: 30px;
     position: fixed;
     left: 100px;
     top: 420px;
-    
     transition-duration: 0.3s;
     transition-property: transform;
     transition-timing-function: ease;
@@ -107,6 +106,8 @@ left: 30px;
 
 #but1:hover{
     transform: translateY(-5px);
+    background-color: rgb(36, 55, 99);
+    border-color: rgb(36, 55, 99);
 }
 
 #pro2{
@@ -146,6 +147,8 @@ left: 30px;
 
 #but2:hover{
     transform: translateY(-5px);
+    background-color: rgb(36, 55, 99);
+    border-color: rgb(36, 55, 99);
 }
 #pro3{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -184,6 +187,8 @@ left: 30px;
 
 #but3:hover{
     transform: translateY(-5px);
+    background-color: rgb(36, 55, 99);
+    border-color: rgb(36, 55, 99);
 }
 
 #pro4{
@@ -225,7 +230,8 @@ left: 30px;
 
 #but4:hover{
     transform: translateY(-5px);
-
+    background-color: rgb(36, 55, 99);
+    border-color: rgb(36, 55, 99);
 }
 
 #pro5{
@@ -265,6 +271,8 @@ left: 30px;
 
 #but5:hover{
     transform: translateY(-5px);
+    background-color: rgb(36, 55, 99);
+    border-color: rgb(36, 55, 99);
 }
 
 #pro6{
@@ -306,7 +314,8 @@ left: 30px;
 
 #but6:hover{
     transform: translateY(-5px);
-
+    background-color: rgb(36, 55, 99);
+    border-color: rgb(36, 55, 99);
 }
 
 
