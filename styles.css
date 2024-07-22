@@ -1,0 +1,52 @@
+@font-face { font-family: pixel; src: url("Gameplay.ttf"); }
+#body{
+    background-color: rgb(19, 33, 77);
+}
+
+#navigate{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 2000px;
+    height: 100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+#title{
+color: white;
+font-family: pixel;
+font-size: 30px;
+position: fixed;
+left: 30px;
+}
+
+#git{
+    width: 60px;
+    position: fixed;
+    top: 18px;
+    right: 40px;
+}
+
+#pro1{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+#pro2{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#backing{
+    display: grid;
+    position: fixed;
+    top: 120px;
+    left: 15px;
+    right: 15px;
+    
+    column-gap: 15px;
+    row-gap: 15px;
+}
