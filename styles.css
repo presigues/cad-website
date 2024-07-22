@@ -33,7 +33,7 @@ left: 30px;
     height: 600px;
     width: 1800px;
     top: 190px;
-    left: 40px;
+    left: 80px;
     right: 40px;
     bottom: 190px;
 
@@ -46,7 +46,21 @@ left: 30px;
     height: 600px;
     width: 1800px;
     top: 190px;
-    left: 580px;
+    left: 680px;
+    right: 40px;
+    bottom: 190px;
+
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+#backing3{
+    display: grid;
+    position: fixed;
+    height: 600px;
+    width: 1800px;
+    top: 190px;
+    left: 1280px;
     right: 40px;
     bottom: 190px;
 
@@ -194,7 +208,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 1000px;
+    left: 1300px;
 }
 #but5{
     background-color: rgb(19, 33, 77);
@@ -207,7 +221,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 600px;
+    left: 1300px;
     top: 420px;
 }
 
@@ -223,7 +237,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 1000px;
+    left: 1300px;
 }
 
 #but6{
@@ -237,7 +251,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 600px;
+    left: 1300px;
     top: 750px;
 
     transition-duration: 0.3s;
