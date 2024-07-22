@@ -80,7 +80,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 60px;
+    left: 100px;
 }
 
 #but1{
@@ -94,8 +94,19 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 60px;
+    left: 100px;
     top: 420px;
+    
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+}
+
+#but1:hover{
+    transform: translateY(-5px);
 }
 
 #pro2{
@@ -109,7 +120,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 60px;
+    left: 100px;
 }
 
 #but2{
@@ -123,10 +134,19 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 60px;
+    left: 100px;
     top: 750px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
 }
 
+#but2:hover{
+    transform: translateY(-5px);
+}
 #pro3{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     width: 500px;
@@ -138,7 +158,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 600px;
+    left: 700px;
 }
 #but3{
     background-color: rgb(19, 33, 77);
@@ -151,8 +171,19 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 600px;
+    left: 700px;
     top: 420px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+
+}
+
+#but3:hover{
+    transform: translateY(-5px);
 }
 
 #pro4{
@@ -167,7 +198,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 600px;
+    left: 700px;
 }
 
 #but4{
@@ -181,7 +212,7 @@ left: 30px;
     font-family: pixel;
     font-size: 20px;
     position: fixed;
-    left: 600px;
+    left: 700px;
     top: 750px;
 
     transition-duration: 0.3s;
@@ -193,7 +224,7 @@ left: 30px;
 }
 
 #but4:hover{
-    transform: translateY(-5px)
+    transform: translateY(-5px);
 
 }
 
@@ -223,6 +254,17 @@ left: 30px;
     position: fixed;
     left: 1300px;
     top: 420px;
+
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+}
+
+#but5:hover{
+    transform: translateY(-5px);
 }
 
 #pro6{
@@ -263,7 +305,7 @@ left: 30px;
 }
 
 #but6:hover{
-    transform: translateY(-5px)
+    transform: translateY(-5px);
 
 }
 
