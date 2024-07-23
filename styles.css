@@ -346,4 +346,13 @@ left: 30px;
     border-color: rgb(36, 55, 99);
 }
 
+#img1{
+    width: 350px;
+    height: 200px;
+    position: fixed;
+    left: 100px;
+    top: 230px;
+    border-radius: 15px;
+}
+
 
