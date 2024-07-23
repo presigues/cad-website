@@ -20,6 +20,14 @@ position: fixed;
 left: 30px;
 }
 
+#title2{
+    color: white;
+font-family: pixel;
+font-size: 30px;
+position: fixed;
+right: 120px;
+}
+
 #git{
     width: 60px;
     position: fixed;
@@ -73,7 +81,13 @@ left: 30px;
     width: 500px;
     height: 300px;
     border-radius: 15px;
+    transition-duration: 0.4s;
 }
+
+#pro1:hover{
+    height: 305px;
+}
+
 
 #text1{
     color: white;
@@ -115,7 +129,13 @@ left: 30px;
     width: 500px;
     height: 300px;
     border-radius: 15px;
+    transition-duration: 0.4s;
 }
+
+#pro2:hover{
+    height: 305px;
+}
+
 #text2{
     color: white;
     font-family: pixel;
@@ -155,7 +175,13 @@ left: 30px;
     width: 500px;
     height: 300px;
     border-radius: 15px;
+    transition-duration: 0.4s;
 }
+
+#pro3:hover{
+    height: 305px;
+}
+
 #text3{
     color: white;
     font-family: pixel;
@@ -196,7 +222,13 @@ left: 30px;
     width: 500px;
     height: 300px;
     border-radius: 15px;
+    transition-duration: 0.4s;
 }
+
+#pro4:hover{
+    height: 305px;
+}
+
 
 #text4{
     color: white;
@@ -239,7 +271,13 @@ left: 30px;
     width: 500px;
     height: 300px;
     border-radius: 15px;
+    transition-duration: 0.4s;
 }
+
+#pro5:hover{
+    height: 305px;
+}
+
 #text5{
     color: white;
     font-family: pixel;
@@ -280,6 +318,11 @@ left: 30px;
     width: 500px;
     height: 300px;
     border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+#pro6:hover{
+    height: 305px;
 }
 
 #text6{
