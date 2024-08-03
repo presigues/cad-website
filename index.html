@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mainstyle.css">
+        <title>Menu</title>
+    </head>
+    <body>
+
+        <div id="cursor"></div>
+        <script>
+            let cursor = document.querySelector('#cursor');
+            let body = document.querySelector('body');
+            document.addEventListener('mousemove', (e) => {
+            body.style.backgroundPositionX = e.pageX + 'px';
+            body.style.backgroundPositionY = e.pageY + 'px';
+            })
+
+        </script>
+
+        <nav id="nav">   
+            <p id="name">Preston Messina</p>
+            <button id="pro">Projects</button>
+            <button id="CAD">CAD Models</button>
+            <button id="about">About</button>
+            <img id="git" src="imgs/kindpng_1280233 (1).png">
+        </nav>
+        <section id="intro">
+
+        </section>
+
+        </body>
+        </html>

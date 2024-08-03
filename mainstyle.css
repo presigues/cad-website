@@ -1,0 +1,107 @@
+@font-face { font-family: pixel; src: url("Azonix.ttf"); }
+
+
+
+body{
+    min-height: 100vh;
+    background-color: #222;
+    background-image: linear-gradient(to right, #333 1px,
+    transparent 1px), linear-gradient(to bottom, #333 1px, 
+    transparent 1px);
+    background-size: 40px 40px;
+}
+#name{
+    font-family: pixel;
+    color: white;
+    position: fixed;
+    left: 770px;
+    top: 0px;
+    
+}
+
+#pro{
+    font-family: pixel;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+#pro:hover{
+    color: #222;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#CAD{
+    font-family: pixel;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#CAD:hover{
+    color: #222;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#about{
+    font-family: pixel;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#about:hover{
+    color: #222;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#cursor{
+    position: fixed;
+    width: 25px;
+    height: 25px;
+   
+
+}
+
+#nav{
+    position: fixed;
+    left: 550px;
+    top: 40px;
+    width: 700px;
+    height: 50px;
+}
+
+#git{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 40px;
+    top: 40px;
+
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+}
+
+#git:hover{
+    transform: translateY(-5px);
+}
